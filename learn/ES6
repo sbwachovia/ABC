@@ -19,7 +19,7 @@ ES6
       console.log(name);
       console.log(items, name);
       
-  4) Arro functions/ function programing:
+  4) Arrow functions/ function programing:
   
      Oldway : var name = function (){
                   console.log('Sridhar');
@@ -80,6 +80,35 @@ ES6
                 
               const filterList = shopingList.map( item => { return item !== 'sugar'});
               console.log(filterList); // print output ['Milk',  'banana', 'tea']
+              
+   7) Construction functions and class:- 
+   
+        class shopingList {
+            constructor(items, count){
+                this.items = items;
+                this.count = count;
+            }
+            
+            sayList(){
+                console.log(this.items);
+            }
+        }
+        const myList = new shopingList(['Milk', 'sugar'], 2);
+        myList.sayList();
+        
+        B) inhertance :   class A extends B{}
+        
+   8) promises : 
+   const prom = new Promise((reslove, reject) =>{
+   
+            setTimeout(()=>{
+            reslove("data is redy");
+            }, 2000);
+   });
+   
+   prob.then(data => {console.log(data)})
+       .catch(error => console.log(error));
+        
                 
               
         
