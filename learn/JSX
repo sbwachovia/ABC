@@ -1,0 +1,6 @@
+1) What is the JSX?
+   JSX is  java script xml for extension to Java script
+   JSX makes your react code simpler and elegent
+   JSX ultimately transpiles to pure java Script whichi is understood by the browsers.
+   
+    https://babeljs.io/repl
