@@ -16,3 +16,8 @@ Learn:
 
 
 
+Maven Commands:
+help:evaluate
+mvn dependency:resolve -U
+grep -rl 'theplatform' . | grep '.xml'
+
