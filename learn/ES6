@@ -58,7 +58,37 @@ ES6
       
       
       
-      
+  5) Default parameters vaues:
+        const add = (a =1, b=1)=> {console.log(a+b);};
+         add(); // print the out put 2
+         add(5,3)// print the output 8
+         
+  6)new Array function in ES6: 
+    a) forEach:
+        const shopingList = ['Milk', 'sugar', 'banana', 'tea'];
+        shopingList.forEach( item =>{ console.log(item);});
+                    -OR-
+        shopingList.forEach( (item) =>{ console.log(item);});
+                     -OR-
+        shopingList.forEach( (item, index) =>{ console.log( 'The index is ${index}  and item is ${item}');});
+     b) map: 
+               const shopingList = ['Milk', 'sugar', 'banana', 'tea'];
+               const newList = shopingList.map(item => { return item+ ' new'});
+                            -OR-
+                const newList = shopingList.map(item =>  item+ ' new');
+                console.log(newlist); // print output ['Milknew', 'sugarnew', 'banananew', 'teanew']
+                
+              const filterList = shopingList.map( item => { return item !== 'sugar'});
+              console.log(filterList); // print output ['Milk',  'banana', 'tea']
+                
+              
+        
+        
+        
+       
+        
+        
+               
       
       
       
