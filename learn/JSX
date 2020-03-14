@@ -2,5 +2,18 @@
    JSX is  java script xml for extension to Java script
    JSX makes your react code simpler and elegent
    JSX ultimately transpiles to pure java Script whichi is understood by the browsers.
-   
     https://babeljs.io/repl
+  
+    
+    JSX example: 
+   class App extends Component{
+      render(){
+      return(
+         <div className="app">
+          <p> Welcome</p>
+         </div>
+      );
+      }
+   }
+
+ Note : we can't use id class  and for , so use className instead of class , use the htmlFor instead of for
