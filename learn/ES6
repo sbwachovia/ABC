@@ -82,6 +82,9 @@ ES6
               console.log(filterList); // print output ['Milk',  'banana', 'tea']
               
    7) Construction functions and class:- 
+       
+       export class shopingList{. //  export like package 
+       }
    
         class shopingList {
             constructor(items, count){
