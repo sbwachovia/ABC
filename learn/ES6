@@ -1,0 +1,66 @@
+ES6
+
+1) Use  let, const  varible types instead of "var"
+    a) let :- let can  use for reassign the values and also support scope level .
+    b) const :- You can't reassign the value.
+    
+2)  String concatination - no need to use "+" to concat the varible in ES6
+    const name = "sridhar"
+    console.log('my Name is ${name}');
+    
+3) Object deconstruction : 
+      const list = {
+          name:'sridhar',
+          items:['Milk','sugar'];
+      }
+
+      const {name, items} = list;
+      console.log(items);
+      console.log(name);
+      console.log(items, name);
+      
+  4) Arro functions/ function programing:
+  
+     Oldway : var name = function (){
+                  console.log('Sridhar');
+                  
+                  }
+      new way : const name = () =>{ console.log('Sridhar')};
+                const location = (location) =>{ console.log('My location is ${location}')};
+                
+      b)  you do not need to use  var self = this when you arrow functions
+      
+         oldway  var user ={
+                      name:'sridhar',
+                      age: 35;
+                      sayName= function(){
+                       var that = this; // check
+                       console.log('my name is '+ this.name);
+                         var fullName =function (){
+                          console.log('my name is '+ that.name) + 'age is'+ that.age);
+                        };
+                        fullName();
+                      }
+                  }
+      
+      newway  var user ={
+                      name:'sridhar',
+                      age: 35;
+                      sayName= function(){
+                       
+                       console.log('my name is '+ this.name);
+                       const fullName = () =>{
+                          console.log('my name is ${this.name} age is  ${this.age}');
+                        };
+                        fullName();
+                      }
+                  }
+      
+      
+      
+      
+      
+      
+      
+      
+      
