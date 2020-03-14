@@ -97,7 +97,21 @@ ES6
         myList.sayList();
         
         B) inhertance :   class A extends B{}
-        
+        c) staitc methods 
+             static testMethod(a, b){};
+        d) private  : 
+            class myClass{
+             #x =0;  // private fiels
+             
+             #intx(){. // private method
+             this.#x =5;
+            }
+        e) static : 
+           class myclass{
+             static sum =; 
+           }
+            
+pri        
    8) promises : 
    const prom = new Promise((reslove, reject) =>{
    
