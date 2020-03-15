@@ -4,6 +4,7 @@
    JSX ultimately transpiles to pure java Script whichi is understood by the browsers.
     https://babeljs.io/repl
   
+  JSX
     
     JSX example: 
    class App extends Component{
@@ -16,4 +17,13 @@
       }
    }
 
+JSX differences
+
  Note : we can't use id class  and for , so use className instead of class , use the htmlFor instead of for
+ 
+ Class -> className
+ for  -> htmlFor
+ camelCase property Naming convention
+ onclick -> onClick
+ tabindex -> tabIndex
+ 
